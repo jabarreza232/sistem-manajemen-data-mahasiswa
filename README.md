@@ -1,61 +1,78 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Sistem Manajemen Data Mahasiswa
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+[![Lisensi MIT](https://img.shields.io/badge/Lisensi-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Status Proyek](https://img.shields.io/badge/Status-Aktif-brightgreen.svg)](https://github.com/yourusername/yourproject)
+[![Ukuran Repo](https://img.shields.io/github/repo-size/yourusername/yourproject?label=Ukuran%20Repo)](https://github.com/yourusername/yourproject)
 
-## About Laravel
+Sistem Manajemen Data Mahasiswa adalah aplikasi web yang dirancang untuk mempermudah pengelolaan data mahasiswa. Aplikasi ini dilengkapi dengan fitur-fitur penting seperti CRUD (Create, Read, Update, Delete), autentikasi pengguna (login), fungsionalitas pencarian yang efisien, dan dashboard informatif.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Fitur Utama
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+* **Autentikasi Pengguna (Login):** Sistem login yang aman untuk admin guna mengelola data.
+* **Dashboard Interaktif:** Menampilkan ringkasan data penting, statistik jumlah mahasiswa, dan navigasi cepat.
+* **Manajemen Data Mahasiswa (CRUD):** Fungsionalitas penuh untuk:
+    * **C**reate: Menambah data mahasiswa baru.
+    * **R**ead: Menampilkan daftar semua mahasiswa.
+    * **U**pdate: Mengedit data mahasiswa yang sudah ada.
+    * **D**elete: Menghapus data mahasiswa.
+* **Fungsionalitas Pencarian:** Fitur pencarian *real-time* atau berbasis *submit* untuk menemukan data mahasiswa berdasarkan Nama, NIM, atau Jurusan.
+* **Desain Responsif:** Tampilan yang dapat beradaptasi di berbagai perangkat (desktop, tablet, mobile).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Teknologi yang Digunakan
 
-## Learning Laravel
+* **Frontend:** HTML, CSS, JavaScript
+* **Framework CSS (Opsional):** Bootstrap 5
+* **Backend:** PHP (Native)
+* **Database:** MySQL / MariaDB
+* **Server Web:** Apache (untuk development via XAMPP/MAMP)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Instalasi (Setup Lokal)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Ikuti langkah-langkah di bawah ini untuk mengatur dan menjalankan proyek secara lokal:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+1.  **Clone repository:**
+    ```bash
+    git clone [https://github.com/yourusername/yourproject.git](https://github.com/yourusername/yourproject.git)
+    cd yourproject
+    ```
+2.  **Konfigurasi Database:**
+    * Buka server database Anda (misal: phpMyAdmin).
+    * Buat database baru dengan nama `db_mahasiswa` (atau sesuaikan).
+    * Impor file `database.sql` (jika Anda menyediakannya) ke dalam database tersebut.
+3.  **Konfigurasi Koneksi:**
+    * Buka file `koneksi.php` (atau file konfigurasi Anda).
+    * Sesuaikan pengaturan `DB_HOST`, `DB_USER`, `DB_PASS`, dan `DB_NAME` dengan konfigurasi lokal Anda.
+    ```php
+    $host = "localhost";
+    $user = "root";
+    $pass = "";
+    $dbname = "db_mahasiswa";
+    ```
+4.  **Jalankan Server:**
+    * Tempatkan folder proyek ke dalam direktori `htdocs` (jika menggunakan XAMPP/MAMP).
+    * Jalankan server Apache dan MySQL Anda.
+5.  **Akses Aplikasi:**
+    * Buka browser dan akses `http://localhost/yourproject`
 
-## Laravel Sponsors
+## Tampilan Aplikasi (Showcase)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+**Catatan:** Ganti URL placeholder di bawah ini dengan screenshot proyek Anda yang sebenarnya. Anda bisa mengunggah gambar ke *repository* GitHub Anda (misal: di folder `assets/img`) dan menautkannya.
 
-### Premium Partners
+### 1. Halaman Login
+http://googleusercontent.com/image_generation_content/1
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+### 2. Dashboard Utama
+http://googleusercontent.com/image_generation_content/2
 
-## Contributing
+### 3. Daftar Mahasiswa (CRUD & Search)
+http://googleusercontent.com/image_generation_content/3
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### 4. Form Tambah/Edit Mahasiswa
+http://googleusercontent.com/image_generation_content/4
 
-## Code of Conduct
+### 5. Contoh Fitur Pencarian
+http://googleusercontent.com/image_generation_content/5
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Lisensi
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Proyek ini dilisensikan di bawah [Lisensi MIT](LICENSE).
