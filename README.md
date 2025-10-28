@@ -64,15 +64,15 @@ DB_PASSWORD=
 ## Tampilan Aplikasi (Showcase)
 
 ### 1. Halaman Login
-https://github.com/jabarreza232/sistem-manajemen-data-mahasiswa/blob/master/resources/images/ss1.PNG
+![alt text](https://github.com/jabarreza232/sistem-manajemen-data-mahasiswa/blob/master/resources/images/ss1.PNG)
 ### 2. Dashboard Utama
-https://github.com/jabarreza232/sistem-manajemen-data-mahasiswa/blob/master/resources/images/ss2.PNG
+![alt text](https://github.com/jabarreza232/sistem-manajemen-data-mahasiswa/blob/master/resources/images/ss2.PNG)
 ### 3. Daftar Mahasiswa (CRUD & Search)
-https://github.com/jabarreza232/sistem-manajemen-data-mahasiswa/blob/master/resources/images/ss3.PNG
+![alt text](https://github.com/jabarreza232/sistem-manajemen-data-mahasiswa/blob/master/resources/images/ss3.PNG)
 ### 4. Form Tambah Mahasiswa
-https://github.com/jabarreza232/sistem-manajemen-data-mahasiswa/blob/master/resources/images/ss4.PNG
+![alt text](https://github.com/jabarreza232/sistem-manajemen-data-mahasiswa/blob/master/resources/images/ss4.PNG)
 ### 5. Form Edit Mahasiswa
-https://github.com/jabarreza232/sistem-manajemen-data-mahasiswa/blob/master/resources/images/ss5.PNG
+![alt text](https://github.com/jabarreza232/sistem-manajemen-data-mahasiswa/blob/master/resources/images/ss5.PNG)
 ## Lisensi
 
 Proyek ini dilisensikan di bawah [Lisensi MIT](LICENSE).
