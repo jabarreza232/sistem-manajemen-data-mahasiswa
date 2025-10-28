@@ -1,8 +1,8 @@
 # Sistem Manajemen Data Mahasiswa
 
 [![Lisensi MIT](https://img.shields.io/badge/Lisensi-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Status Proyek](https://img.shields.io/badge/Status-Aktif-brightgreen.svg)](https://github.com/jabarreza232/sistem-manajemen-data-mahasiswa)
-[![Ukuran Repo](https://img.shields.io/github/repo-size/jabarreza232/sistem-manajemen-data-mahasiswa?label=Ukuran%20Repo)](https://github.com/jabarreza232/sistem-manajemen-data-mahasiswa)
+[![Status Proyek](https://img.shields.io/badge/Status-Aktif-brightgreen.svg)](https://github.com/jabarreza232/sistem-manajemen-data-mahasiswa.git)
+[![Ukuran Repo](https://img.shields.io/github/repo-size/jabarreza232/sistem-manajemen-data-mahasiswa.git?label=Ukuran%20Repo)](https://github.com/jabarreza232/sistem-manajemen-data-mahasiswa.git)
 
 Sistem Manajemen Data Mahasiswa adalah aplikasi web yang dirancang untuk mempermudah pengelolaan data mahasiswa. Aplikasi ini dilengkapi dengan fitur-fitur penting seperti CRUD (Create, Read, Update, Delete), autentikasi pengguna (login), fungsionalitas pencarian yang efisien, dan dashboard informatif.
 
@@ -43,12 +43,12 @@ Ikuti langkah-langkah di bawah ini untuk mengatur dan menjalankan proyek secara 
     * Buka file `.env` (atau file konfigurasi laravel Anda).
     * Sesuaikan pengaturan `DB_HOST`, `DB_USER`, `DB_PASS`, dan `DB_NAME` dengan konfigurasi lokal Anda.
     ```php
- DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=db_mahasiswa
-DB_USERNAME=root
-DB_PASSWORD=
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=db_mahasiswa
+    DB_USERNAME=root
+    DB_PASSWORD=
 
     ```
 4.  **Jalankan Server:**
