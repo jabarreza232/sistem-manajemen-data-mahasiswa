@@ -2,7 +2,7 @@
 
 [![Lisensi MIT](https://img.shields.io/badge/Lisensi-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Status Proyek](https://img.shields.io/badge/Status-Aktif-brightgreen.svg)](https://github.com/jabarreza232/sistem-manajemen-data-mahasiswa.git)
-[![Ukuran Repo](https://img.shields.io/github/repo-size/jabarreza232/sistem-manajemen-data-mahasiswa.git?label=Ukuran%20Repo)](https://github.com/jabarreza232/sistem-manajemen-data-mahasiswa.git)
+[![Ukuran Repo](https://img.shields.io/github/repo-size/jabarreza232/sistem-manajemen-data-mahasiswa?label=Ukuran%20Repo)](https://github.com/jabarreza232/sistem-manajemen-data-mahasiswa)
 
 Sistem Manajemen Data Mahasiswa adalah aplikasi web yang dirancang untuk mempermudah pengelolaan data mahasiswa. Aplikasi ini dilengkapi dengan fitur-fitur penting seperti CRUD (Create, Read, Update, Delete), autentikasi pengguna (login), fungsionalitas pencarian yang efisien, dan dashboard informatif.
 
